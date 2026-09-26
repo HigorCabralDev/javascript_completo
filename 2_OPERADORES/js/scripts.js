@@ -15,3 +15,17 @@ console.log(typeof Infinity);
 console.log(typeof -Infinity);
 console.log(12 * "asd");
 console.log(typeof NaN);
+
+// 4 - Strings
+console.log("Um texto");
+console.log("Mais um texto");
+console.log("21");
+
+console.log(typeof "Um texto");
+console.log(typeof "Mais um texto");
+
+// 5 - Símbolos especiais em string
+
+console.log ("Testando a \nquebra de linha ");
+
+console.log ("Espaçamento \t de tab");
