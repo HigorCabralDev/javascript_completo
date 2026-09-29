@@ -49,3 +49,12 @@ console.log(5>20);
 console.log(30 > 20);
 
 console.log(typeof false);
+
+// 9 - Comparação 
+console.log(5 <= 5);
+
+console.log(5 < 5);
+
+console.log (10 == 10);
+
+console.log (10 == 9);
