@@ -34,3 +34,18 @@ console.log ("Espaçamento \t de tab");
 console.log("Oi,"+" Tudo"+" bem?");
 
 console.log( `Testando` + ` com` + ` crase!`);
+
+// 7 - Template Strings
+console.log(`A soma de 2 + 2 é: ${2 + 2}`);
+
+console.log (`Podemos executar qualque coisa aqui  ${console.log("Teste")}`);
+
+// 8 - Boolean
+
+console.log(true);
+
+console.log(5>20);
+
+console.log(30 > 20);
+
+console.log(typeof false);
