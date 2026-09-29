@@ -29,3 +29,8 @@ console.log(typeof "Mais um texto");
 console.log ("Testando a \nquebra de linha ");
 
 console.log ("Espaçamento \t de tab");
+
+// 6 - Concatenação 
+console.log("Oi,"+" Tudo"+" bem?");
+
+console.log( `Testando` + ` com` + ` crase!`);
