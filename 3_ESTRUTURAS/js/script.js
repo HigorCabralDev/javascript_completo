@@ -87,3 +87,24 @@ if(user === "Maria") {
 }
 
 console.log (user === "João", user === "Maria")
+
+// 8 - ELSE
+
+const loggedIn = false
+
+if (loggedIn) {
+
+    console.log("Está autenticado!");
+} else {
+    console.log("Não está autenticado!");
+}
+
+const q = 10 
+
+const w = 15
+
+if (q > 5 && w > 20 ) {
+    console.log ("Número mais altos");
+} else {
+    console.log ("Os números não estão mais altos");
+}
