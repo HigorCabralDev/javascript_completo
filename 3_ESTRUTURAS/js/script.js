@@ -129,3 +129,30 @@ if(userName === "Jóse") {
 } else {
     console.log ("Nenhuma condição aceita");
 }
+
+// 10 - While
+
+let p = 0
+
+while(p < 5 ) {
+    console.log (`Repetindo ${p}`);
+    p = p + 1;
+}
+
+// let x = 10 
+
+// while(x > 5) {
+//     console.log (`Imprimindo ${x}`);
+// }
+
+// 11 - DO While
+
+let o = 10 
+
+do {
+    console.log (`Valor de o: ${o}`);
+    o--
+} while(o > 1);
+
+// 12 - For 
+
