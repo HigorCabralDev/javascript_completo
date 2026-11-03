@@ -178,11 +178,21 @@ for (let u = 0; u < 10; u++) {
 }
 
 // 14 - Break 
-for (g  = 20; g > 10 ; g--) {
+for (let g  = 20; g > 10 ; g--) {
     console.log (`O valor de g é: ${g}`);
 
     if (g === 12) {
         console.log ("O g é o 12!");
         break;
     }
+}
+
+// 15 - Continue
+for (let s = 1; s < 10 ; s = s + 1) {
+    // operado resto = %
+    if (s % 2 === 0) {
+        console.log ("Numero par!")
+        continue
+    }
+    console.log (s)
 }
