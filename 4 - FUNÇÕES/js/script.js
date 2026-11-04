@@ -113,4 +113,31 @@ const helloWord = () => console.log ("Hello Word");
 
 helloWord();
 
+// Parâmetro Opcional
 
+const mutiplication = function (m, n) {
+
+    if (n === undefined) {
+        return m * 2;
+    } else {
+        return m * n;
+    }
+};
+
+console.log(mutiplication(5));
+
+console.log(mutiplication(2, 4));
+
+const greeting = (name) => {
+
+    if(!name) {
+        console.log ("Olá!");
+        return;
+    }
+
+    console.log (`Olá ${name}!`);
+};
+
+greeting();
+
+greeting("Higor");
