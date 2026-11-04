@@ -141,3 +141,12 @@ const greeting = (name) => {
 greeting();
 
 greeting("Higor");
+
+//  8 - Valor Defaut
+const customGreeting = (name, greet = "Olá") => {
+    return `${greet}, ${name}!`;
+};
+
+console.log(customGreeting("Higor"));
+
+console.log(customGreeting("Higor", "Bom dia!"));
