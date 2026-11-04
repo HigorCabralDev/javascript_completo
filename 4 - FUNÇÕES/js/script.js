@@ -95,4 +95,22 @@ const parOuImpar = (n) => {
 parOuImpar(5);
 parOuImpar(10);
 
+// 6 - Mais sobre Arrow Function
+
+const raizQuadra  = (x) => {
+    return x * x;
+}
+
+console.log(raizQuadra(4));
+
+const raizQuadra2 = (x) => x * x;
+
+console.log(raizQuadra2(5));
+
+console.log(raizQuadra(12));
+
+const helloWord = () => console.log ("Hello Word");
+
+helloWord();
+
 
