@@ -43,3 +43,16 @@ console.log(text.toUpperCase());
 console.log(typeof text.toUpperCase());
 
 console.log(text.indexOf("t"));
+
+// 5 - Objetos 
+const person = {
+    name: "Higor",
+    age: 21,
+    job: "Programador"
+};
+
+console.log(person);
+
+console.log(person.name);
+
+console.log(person.name.length);
