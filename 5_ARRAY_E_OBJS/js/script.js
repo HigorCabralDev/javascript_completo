@@ -93,3 +93,10 @@ Object.assign(obj2,obj);
 console.log(obj2);
 
 console.log(obj);
+
+// 8 - Conhecendo melhor os objeto
+console.log(Object.keys(obj));
+console.log(Object.keys(obj2));
+console.log(Object.keys(car));
+
+console.log(Object.entries(car));
