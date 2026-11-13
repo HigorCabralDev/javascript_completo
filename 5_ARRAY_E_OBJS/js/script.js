@@ -122,3 +122,10 @@ delete b.age;
 
 console.log(a);
 console.log(b);
+
+//  10 - Loop em array
+const users = ["Higor", "Matheus", "José", "Yure"];
+
+for(let i = 0; i < users.length; i++){
+    console.log(`Listando o usuário: ${users[i]}`);
+}
