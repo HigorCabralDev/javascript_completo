@@ -220,4 +220,16 @@ posts.forEach((post) => {
     
 });
 
+// Includes
+const brands = ["BMW", "VW", "FIAT"]
+
+console.log(brands.includes("FIAT"));
+
+console.log(brands.includes("KIA"));
+
+if(brands.includes("BMW")) {
+    console.log("Há carros da marca BMW!");
+};
+
+
 
