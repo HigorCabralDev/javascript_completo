@@ -202,4 +202,22 @@ const subArray4 = testeSlice.slice(2)
 
 console.log(subArray4);
 
+// Forech
+const nums = [1, 2, 3, 4, 5];
+
+nums.forEach((numero) => {
+    console.log(`O número é ${numero}`);
+})
+
+const posts = [
+    {title: "Primeiro post", category:"PHP"},
+    {title: "Segundo post", category:"JavaScript"},
+    {title: "Teceiro post", category:"Python"},
+];
+
+posts.forEach((post) => {
+    console.log(`Exibindo o primeiro post:${post.title}, da categoria: ${post.category}`);
+    
+});
+
 
