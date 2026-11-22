@@ -280,3 +280,8 @@ const itensParaComprar = ["Mouse", "Teclado", "Monitor"];
 const fraseDeCompra = `Precisamos comprar: ${itensParaComprar.join(", ")}.`
 
 console.log(fraseDeCompra);
+
+// 22 - repeat
+const palavra = "Testando ";
+
+console.log(palavra.repeat(5));
