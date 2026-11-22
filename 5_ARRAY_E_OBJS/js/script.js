@@ -168,7 +168,7 @@ letters.unshift("z");
 
 console.log(letters);
 
-// IndexOf e LastindexOf
+// 13 - IndexOf e LastindexOf
 const myElements = ["Morango", "Maçã", "Abacate", "Pêra", "Abacate"];
 
 console.log(myElements.indexOf("Maçã"));
@@ -181,7 +181,7 @@ console.log(myElements.lastIndexOf("Abacate"));
 console.log(myElements.indexOf("Mamão"));
 console.log(myElements.lastIndexOf("Mamão"));
 
-// Slice
+// 14 - Slice
 const testeSlice = ["A", "B", "C", "D", "E", "F"];
 
 const subArray = testeSlice.slice(2,4);
@@ -202,7 +202,7 @@ const subArray4 = testeSlice.slice(2)
 
 console.log(subArray4);
 
-// Forech
+// 15 - Forech
 const nums = [1, 2, 3, 4, 5];
 
 nums.forEach((numero) => {
@@ -220,7 +220,7 @@ posts.forEach((post) => {
     
 });
 
-// Includes
+// 16 - Includes
 const brands = ["BMW", "VW", "FIAT"]
 
 console.log(brands.includes("FIAT"));
@@ -230,6 +230,14 @@ console.log(brands.includes("KIA"));
 if(brands.includes("BMW")) {
     console.log("Há carros da marca BMW!");
 };
+
+
+// 17 - Reverse 
+const reverseTeste = [ 1, 2, 3, 4 , 5];
+
+reverseTeste.reverse();
+
+console.log(reverseTeste)
 
 
 
