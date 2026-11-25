@@ -30,3 +30,18 @@ console.log(pessoa.getNome());
 pessoa.setNome("Matheus");
 
 console.log(pessoa.getNome());
+
+// 3 - Propotype
+const text = "ASD"
+
+console.log(Object.getPrototypeOf(text));
+
+const bool = true;
+
+console.log(Object.getPrototypeOf(bool));
+
+const arr = [];
+
+console.log(arr.length);
+
+console.log(Object.getPrototypeOf(arr));
