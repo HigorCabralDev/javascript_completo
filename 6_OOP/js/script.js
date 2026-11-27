@@ -124,3 +124,18 @@ console.log(Cachorro.prototype);
 
 husky.uivar();
 
+// 9 - Classes ES6
+class CachorroClasse  {
+    constructor(nome,raca) {
+        this.nome = nome;
+        this.raca = raca;
+    }
+    
+};
+
+const jeff = new CachorroClasse ("Jeff", "Labrador");
+
+console.log(jeff);
+
+console.log(Object.getPrototypeOf(jeff));
+
